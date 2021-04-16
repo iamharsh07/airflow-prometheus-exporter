@@ -4,8 +4,9 @@
 """The setup script."""
 
 from setuptools import setup, find_packages
+import io
 
-with open('README.md', encoding='utf-8') as readme_file:
+with io.open('README.md', encoding='utf-8') as readme_file:
     readme = readme_file.read()
 
 install_requirements = [
